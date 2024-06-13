@@ -22,7 +22,7 @@ public class TestVirtualThreadsApplication {
 	int TASK_COUNT=10000;
 
 	/**
-	Test cases results
+	Test cases' results
 	Platform Threads Time Taken: 1617 milliseconds
 	Virtual Threads Time Taken: 405 milliseconds
 	Platform Threads Time Taken: 1589 milliseconds
