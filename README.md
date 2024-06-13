@@ -1,0 +1,19 @@
+Test cases' results
+Platform Threads Time Taken: 1617 milliseconds
+Virtual Threads Time Taken: 405 milliseconds
+Platform Threads Time Taken: 1589 milliseconds
+Virtual Threads Time Taken: 44 milliseconds
+Platform Threads Time Taken: 1587 milliseconds
+Virtual Threads Time Taken: 45 milliseconds
+Platform Threads Time Taken: 1589 milliseconds
+Virtual Threads Time Taken: 46 milliseconds
+Platform Threads Time Taken: 1585 milliseconds
+Virtual Threads Time Taken: 30 milliseconds
+Platform Threads Time Taken: 1588 milliseconds
+Virtual Threads Time Taken: 29 milliseconds
+Platform Threads Time Taken: 1596 milliseconds
+Virtual Threads Time Taken: 31 milliseconds
+Platform Threads Time Taken: 1592 milliseconds
+Virtual Threads Time Taken: 29 milliseconds
+Virtual Threads Time Taken: 31 milliseconds
+Platform Threads Time Taken: 1586 milliseconds
