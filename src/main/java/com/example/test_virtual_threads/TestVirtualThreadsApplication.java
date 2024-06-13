@@ -52,9 +52,7 @@ public class TestVirtualThreadsApplication {
         Instant start = Instant.now();
 
         for (int i = 0; i < TASK_COUNT; i++) {
-            executorService.submit(() -> {
-                performTask();
-            });
+            executorService.submit(this::performTask);
         }
 
         executorService.shutdown();
@@ -63,6 +61,7 @@ public class TestVirtualThreadsApplication {
         }
 
         Instant end = Instant.now();
+        executorService.close();
         Duration timeElapsed = Duration.between(start, end);
         System.out.println("Platform Threads Time Taken: " + timeElapsed.toMillis() + " milliseconds");
     }
@@ -74,9 +73,7 @@ public class TestVirtualThreadsApplication {
         Instant start = Instant.now();
 
         for (int i = 0; i < TASK_COUNT; i++) {
-            executorService.submit(() -> {
-                performTask();
-            });
+            executorService.submit(this::performTask);
         }
 
         executorService.shutdown();
@@ -85,6 +82,7 @@ public class TestVirtualThreadsApplication {
         }
 
         Instant end = Instant.now();
+        executorService.close();
         Duration timeElapsed = Duration.between(start, end);
         System.out.println("Virtual Threads Time Taken: " + timeElapsed.toMillis() + " milliseconds");
     }
